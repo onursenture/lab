@@ -20,9 +20,9 @@ export default async function ProjectPage({
 
   return (
     <main>
-      <Link href="/" className="back-link">
-        &larr; Back to Lab
-      </Link>
+      <a href="https://onursenture.com" className="back-link">
+        &larr; Back to onursenture.com
+      </a>
       <h1>{project.name}</h1>
       <p className="project-description">{project.description}</p>
       <time dateTime={project.date}>
