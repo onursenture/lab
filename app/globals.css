@@ -53,30 +53,15 @@ a:hover {
   text-decoration: underline;
 }
 
-.projects {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
-.project-item {
-  padding-bottom: 2rem;
-  border-bottom: 1px solid #eee;
-}
-
-.project-item:last-child {
-  border-bottom: none;
+.back-link {
+  display: inline-block;
+  margin-bottom: 2rem;
+  font-size: 0.9rem;
 }
 
 .project-description {
   color: #333;
   margin: 0.25rem 0;
-}
-
-.back-link {
-  display: inline-block;
-  margin-bottom: 2rem;
-  font-size: 0.9rem;
 }
 
 time {
